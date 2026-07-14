@@ -1,5 +1,7 @@
 # build output
 dist/
+# staged by scripts/copy-geo.mjs from data/geo/cameras — data/ is the source of truth
+public/geo/
 # generated types
 .astro/
 
