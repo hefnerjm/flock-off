@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Submit a Case" description="How to submit a documented case of Flock Safety ALPR camera abuse for review.">
+  <article class="submit-page">
+    <p><a href="/database/">← Back to database</a></p>
+    <h1>Submit a Case</h1>
+    <p>
+      Every case in the database requires at least one working source URL
+      from a court filing, government record, public audit log, or reporting
+      from a named outlet. Submissions without one are not published. See the{" "}
+      <a href="/methodology">methodology page</a> for the full criteria.
+    </p>
+
+    <h2>Option 1: GitHub pull request (fastest)</h2>
+    <p>
+      If you're comfortable with GitHub, add a JSON file to{" "}
+      <code>data/abuse-cases/</code> in our repository matching the schema in{" "}
+      <code>data/schemas/abuse-case.schema.json</code>, then open a pull
+      request. Automated checks will verify the file's shape and that it has
+      at least one <code>https://</code> source before a maintainer reviews
+      it.
+    </p>
+
+    <h2>Option 2: Web form</h2>
+    <p>
+      A web form for non-technical submitters is coming soon. In the
+      meantime, please use the GitHub pull request option above, or reach
+      out via the <a href="/join">contact/join page</a> once it's live.
+    </p>
+
+    <p>
+      All submissions, however they arrive, are verified against their
+      sources before publication.
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .submit-page {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  .submit-page code {
+    background: rgba(232, 232, 232, 0.1);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+  }
+</style>

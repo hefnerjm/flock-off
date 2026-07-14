@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadAbuseCases } from "../../utils/loadData";
+
+export async function getStaticPaths() {
+  return loadAbuseCases().map((abuseCase) => ({
+    params: { id: abuseCase.id },
+    props: { abuseCase },
+  }));
+}
+
+const { abuseCase } = Astro.props;
+
+const CATEGORY_LABELS: Record<string, string> = {
+  stalking: "Stalking",
+  immigration: "Immigration",
+  reproductive: "Reproductive care",
+  "protest-1a": "Protest / 1st Amendment",
+  "data-sharing": "Data sharing",
+  "warrantless-dragnet": "Warrantless dragnet",
+  other: "Other",
+};
+
+const location = [abuseCase.location.city, abuseCase.location.county, abuseCase.location.state]
+  .filter(Boolean)
+  .join(", ");
+---
+
+<BaseLayout title={abuseCase.title} description={abuseCase.summary}>
+  <article class="case-detail">
+    <p><a href="/database/">← Back to database</a></p>
+    <h1>{abuseCase.title}</h1>
+    <p class="case-meta">
+      {abuseCase.date} · {location} · {CATEGORY_LABELS[abuseCase.category] ?? abuseCase.category}
+      {!abuseCase.verified && <span class="unverified-badge">Unverified</span>}
+    </p>
+
+    {abuseCase.agency && (
+      <p><strong>Agency:</strong> {abuseCase.agency}</p>
+    )}
+    <p><strong>Reported actor:</strong> {abuseCase.actor}</p>
+
+    <h2>Summary</h2>
+    <p>{abuseCase.summary}</p>
+
+    {abuseCase.outcome && (
+      <>
+        <h2>Outcome</h2>
+        <p>{abuseCase.outcome}</p>
+      </>
+    )}
+
+    <h2>Sources</h2>
+    <ul>
+      {abuseCase.sources.map((s: { url: string; outlet: string; date: string }) => (
+        <li>
+          <a href={s.url} target="_blank" rel="noopener">{s.outlet}</a> ({s.date})
+        </li>
+      ))}
+    </ul>
+  </article>
+</BaseLayout>
+
+<style>
+  .case-detail {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  .case-meta {
+    opacity: 0.75;
+    font-size: 0.9rem;
+  }
+
+  .unverified-badge {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    border: 1px solid var(--color-accent, #ff3b30);
+    border-radius: 999px;
+    font-size: 0.75rem;
+    color: var(--color-accent, #ff3b30);
+  }
+</style>
