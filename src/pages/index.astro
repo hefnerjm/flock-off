@@ -1,6 +1,21 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Counter from "../components/Counter.astro";
 import { site } from "../config/site";
+import { loadAbuseCases, loadLegalCases, loadWins } from "../utils/loadData";
+
+const abuseCases = loadAbuseCases();
+const legalCases = loadLegalCases();
+const wins = loadWins();
+
+const pendingLawsuits = legalCases.filter(
+  (c) => c.status === "filed" || c.status === "pending"
+).length;
+
+const lastUpdated = [...abuseCases]
+  .map((c) => c.addedDate)
+  .sort()
+  .at(-1);
 ---
 
 <BaseLayout title={site.name} description={site.tagline}>
@@ -8,11 +23,39 @@ import { site } from "../config/site";
     <h1>{site.name}</h1>
     <p>{site.tagline}</p>
   </section>
+
+  <section class="counters" aria-label="Documented impact">
+    <Counter value={abuseCases.length} label="Documented cases of Flock camera abuse and warrantless surveillance" />
+    <Counter value={wins.length} label="Cities that canceled or rejected Flock contracts" />
+    <Counter value={pendingLawsuits} label="Pending lawsuits challenging ALPR surveillance" />
+  </section>
+
+  <p class="counters-meta">
+    {lastUpdated && <>Last updated {lastUpdated}. </>}
+    <a href="/database/">Browse the full database</a> or read the{" "}
+    <a href="/methodology">methodology</a> behind these numbers.
+  </p>
 </BaseLayout>
 
 <style>
   .hero {
-    padding: 4rem 1.5rem;
+    padding: 4rem 1.5rem 2rem;
     text-align: center;
+  }
+
+  .counters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+  }
+
+  .counters-meta {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    padding: 1.5rem 1.5rem 3rem;
   }
 </style>

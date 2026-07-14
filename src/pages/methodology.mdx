@@ -1,0 +1,59 @@
+---
+layout: ../layouts/ArticleLayout.astro
+title: Methodology
+description: What counts as a documented case of Flock camera abuse, how entries are sourced, and how to submit one.
+---
+
+# Methodology
+
+This page explains how the numbers on this site are put together, so you can
+check our work.
+
+## What counts as a "documented case"
+
+An abuse case is an incident where a Flock Safety ALPR camera network, or the
+data it collected, was reportedly used in a way that raises legal, ethical, or
+civil-liberties concerns — including warrantless tracking, stalking, sharing
+data across agencies or state lines in violation of local law, or targeting
+protesters, immigrants, or people seeking reproductive care. Categories are
+listed in the [full database](/database/).
+
+## What it takes for a case to be published
+
+Every entry requires **at least one source URL** from a court filing,
+government record, public audit log, or reporting by a named outlet. Entries
+without a working source link are rejected automatically in our review
+process — this is enforced by an automated check, not just editorial policy.
+
+Where a source names an officer, agency, or official, we state only what
+that source states, with attribution (e.g. "according to a 404 Media
+investigation…"). We use "alleged" for anything that hasn't been
+adjudicated, and we do not embellish, infer, or fill in details the source
+doesn't provide.
+
+A `verified` flag on each entry means a maintainer has confirmed the cited
+source(s) actually support the summary as written.
+
+## Where the camera map data comes from
+
+Camera locations shown on the [map](/map) come only from
+[OpenStreetMap](https://www.openstreetmap.org/copyright) data — the same
+crowdsourced dataset [DeFlock.me](https://www.deflock.me) uses — refreshed
+weekly via the Overpass API. We never invent or estimate camera coordinates.
+
+## Counting rules
+
+- **Documented cases of abuse**: one entry per file in the abuse case
+  database, regardless of how many sources cover it.
+- **Cities that canceled or rejected Flock**: one entry per municipality
+  that has publicly ended or voted down a Flock contract, each with its own
+  source.
+- **Pending lawsuits**: legal cases in the tracker with a status of "filed"
+  or "pending" — cases marked decided, dismissed, or settled aren't counted
+  here, though they remain visible in the [legal tracker](/legal/).
+
+## How to submit a case
+
+See the [submit a case](/database/submit) page for how to propose a new
+entry, either via a GitHub pull request or a plain web form. All submissions
+are reviewed for sourcing before publication.

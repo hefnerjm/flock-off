@@ -1,0 +1,37 @@
+---
+import CounterIsland from "./CounterIsland.tsx";
+
+interface Props {
+  value: number;
+  label: string;
+}
+
+const { value, label } = Astro.props;
+---
+
+<div class="counter">
+  <p class="counter-value">
+    <CounterIsland client:visible value={value} />
+    <span class="sr-only">{value.toLocaleString("en-US")}</span>
+  </p>
+  <p class="counter-label">{label}</p>
+</div>
+
+<style>
+  .counter {
+    text-align: center;
+  }
+
+  .counter-value {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 800;
+    color: var(--color-accent, #ff3b30);
+    margin: 0;
+  }
+
+  .counter-label {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    margin: 0.25rem 0 0;
+  }
+</style>
