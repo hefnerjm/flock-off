@@ -1,0 +1,11 @@
+name = "flock-off"
+compatibility_date = "2026-07-14"
+
+# Pure static site - no Worker script, no server-side adapter. This file's
+# only job is to stop wrangler's "no config found" auto-detection, which
+# otherwise runs `astro add cloudflare` (a server-side adapter) and breaks
+# the build, since our build-time-only `node:fs`/`node:path` usage in
+# src/utils/loadData.ts isn't available in that runtime.
+[assets]
+directory = "./dist"
+not_found_handling = "404-page"
