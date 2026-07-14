@@ -22,3 +22,12 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Claude Code local/session state
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Overpass build-only intermediate (100k+ points, ~60MB+) — never commit;
+# scripts/build-clusters.mjs consumes it to produce the much smaller
+# committed national.clusters.json
+data/geo/cameras/national.raw.geojson

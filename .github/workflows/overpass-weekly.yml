@@ -1,0 +1,33 @@
+name: Weekly Overpass Camera Refresh
+
+on:
+  schedule:
+    - cron: "17 9 * * 1" # Monday mornings
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - run: npm ci
+      - run: node scripts/overpass-fetch.mjs
+      - run: node scripts/build-clusters.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "flock-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/geo/cameras/bexar.geojson data/geo/cameras/texas.geojson data/geo/cameras/national.clusters.json data/geo/cameras/meta.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(data): weekly camera dataset refresh [skip ci]"
+          git push
