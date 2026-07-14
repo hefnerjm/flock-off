@@ -1,0 +1,24 @@
+{
+  "id": "gibbs-mura-v-flock-safety",
+  "caseName": "Gibbs Mura v. Flock Safety (now consolidated as In re Flock Safety ALPR Litigation, No. 3:26-cv-02375, N.D. Cal.)",
+  "court": "U.S. District Court, N.D. Cal.",
+  "docketNumber": "3:26-cv-02375",
+  "status": "pending",
+  "issue": "data-sharing",
+  "filedDate": "2026-02-26",
+  "summary": "Gibbs Mura, A Law Group filed a class action against Flock Safety in San Francisco Superior Court on February 26, 2026, alleging Flock's ALPR cameras track millions of Californians' movements and illegally share that data with out-of-state and federal agencies in violation of California's ALPR Privacy Act (SB 34), the Unfair Competition Law, and state constitutional privacy protections. An amended complaint followed on April 3, 2026. A federal judge later consolidated this suit with related cases into In re Flock Safety ALPR Litigation in the Northern District of California. Reporting on the complaint cited federal agencies accessing data from San Francisco Police Department's Flock cameras more than 1.6 million times.",
+  "whyItMatters": "Unlike the government-vs-government suits (Bonta v. El Cajon), this is a private class action aimed directly at the vendor, Flock Safety itself, rather than just the cities that contract with it.",
+  "links": [
+    {
+      "url": "https://www.classlawgroup.com/flock-safety-license-plate-reader-cameras-lawsuit",
+      "label": "Gibbs Mura, A Law Group case page",
+      "type": "filing"
+    },
+    {
+      "url": "https://stollberne.com/class-actions-blog/flock-safety-faces-class-action-lawsuit-over-alleged-data-sharing-violations-in-california/",
+      "label": "Stoll Berne case summary",
+      "type": "news"
+    }
+  ],
+  "addedDate": "2026-07-13"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "eff-romani-discriminatory-searches",
+  "title": "EFF found 80+ agencies used language targeting Romani people in Flock searches",
+  "date": "2025-11-20",
+  "location": {
+    "state": "US"
+  },
+  "agency": "80+ law enforcement agencies nationwide",
+  "actor": "officers at more than 80 law enforcement agencies",
+  "category": "other",
+  "summary": "As part of the same review of Flock ALPR search logs covering December 2024 to October 2025, EFF found more than 80 law enforcement agencies used language perpetuating harmful stereotypes against Romani people as search justifications in the nationwide ALPR network.",
+  "outcome": "Reported alongside EFF's broader 2025 findings on protest surveillance; contributed to public pressure that led several cities to cancel or decline to renew Flock contracts.",
+  "sources": [
+    {
+      "url": "https://www.eff.org/deeplinks/2025/11/how-cops-are-using-flock-safetys-alpr-network-surveil-protesters-and-activists",
+      "outlet": "Electronic Frontier Foundation",
+      "date": "2025-11-20"
+    },
+    {
+      "url": "https://www.eff.org/deeplinks/2025/12/effs-investigations-expose-flock-safetys-surveillance-abuses-2025-review",
+      "outlet": "Electronic Frontier Foundation",
+      "date": "2025-12-30"
+    }
+  ],
+  "verified": true,
+  "addedBy": "flock-off-research",
+  "addedDate": "2026-07-13"
+}

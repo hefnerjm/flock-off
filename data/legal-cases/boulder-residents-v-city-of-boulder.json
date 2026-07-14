@@ -1,0 +1,23 @@
+{
+  "id": "boulder-residents-v-city-of-boulder",
+  "caseName": "Freeman v. City of Boulder",
+  "court": "Boulder County District Court",
+  "status": "filed",
+  "issue": "alpr",
+  "filedDate": "2026-05-27",
+  "summary": "Boulder residents William Freeman (founder of the OpenStreetMap-based camera-mapping project DeFlock.me) and Gwen Steel filed a class action against Boulder Police Chief Stephen Redfearn and records specialist Dawn VanAckeren, alleging the city's 31 Flock ALPR cameras amount to mass, suspicionless, warrantless surveillance that violates the Colorado Constitution's privacy protections, which the plaintiffs argue go beyond federal Fourth Amendment standards. Boulder retains ALPR data for 30 days without a warrant. The plaintiffs are asking the court to declare the camera network unconstitutional and to block the city from continuing warrantless use. Judge Michael Kotlarczyk has been assigned the case.",
+  "whyItMatters": "This is a state-constitutional challenge rather than a federal one, testing whether Colorado's broader privacy protections can succeed where federal Fourth Amendment claims against ALPR networks have struggled.",
+  "links": [
+    {
+      "url": "https://boulderreportinglab.org/2026/05/28/boulder-residents-sue-police-chief-over-alleged-mass-surveillance-by-flock-cameras/",
+      "label": "Boulder Reporting Lab coverage",
+      "type": "news"
+    },
+    {
+      "url": "https://coloradosun.com/2026/05/28/lawsuit-boulder-police-flock-cameras/",
+      "label": "Colorado Sun coverage",
+      "type": "news"
+    }
+  ],
+  "addedDate": "2026-07-13"
+}

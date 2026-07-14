@@ -1,0 +1,23 @@
+{
+  "id": "eff-protest-tracking-2025",
+  "title": "EFF found 50+ agencies ran hundreds of Flock searches tied to First Amendment protests",
+  "date": "2025-11-20",
+  "location": {
+    "state": "US"
+  },
+  "agency": "50+ federal, state, and local agencies nationwide",
+  "actor": "officers at more than 50 law enforcement agencies",
+  "category": "protest-1a",
+  "summary": "EFF analyzed Flock ALPR search-log datasets covering more than 12 million searches logged by more than 3,900 agencies between December 2024 and October 2025, and found more than 50 federal, state, and local agencies ran hundreds of searches tied to political demonstrations, including the February 50501 protests, the April Hands Off protests, and the June and October No Kings protests. Nineteen agencies logged dozens of searches associated with the No Kings protests alone, with the Tulsa Police Department logging at least 38. Three agencies ran dozens of searches targeting Direct Action Everywhere (DxE) animal-rights activists, with Delaware State Police alone running searches with reasons like \"DxE Protest Suspect Vehicle\" at least nine times. Roughly 20% of all searches in the dataset used vague justifications like \"investigation\" or \"suspect.\"",
+  "outcome": "EFF's reporting fueled organizing campaigns that contributed to several cities, including Evanston, canceling or declining to renew Flock contracts, citing concerns about surveillance of political activity among other issues.",
+  "sources": [
+    {
+      "url": "https://www.eff.org/deeplinks/2025/11/how-cops-are-using-flock-safetys-alpr-network-surveil-protesters-and-activists",
+      "outlet": "Electronic Frontier Foundation",
+      "date": "2025-11-20"
+    }
+  ],
+  "verified": true,
+  "addedBy": "flock-off-research",
+  "addedDate": "2026-07-13"
+}

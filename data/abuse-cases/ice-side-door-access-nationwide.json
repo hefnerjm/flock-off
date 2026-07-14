@@ -1,0 +1,29 @@
+{
+  "id": "ice-side-door-access-nationwide",
+  "title": "Local and state police ran 4,000+ ALPR searches for ICE despite no formal federal contract",
+  "date": "2025-05-27",
+  "location": {
+    "city": "Danville",
+    "state": "IL"
+  },
+  "agency": "Multiple local and state police departments (records obtained via Danville, IL Police Department)",
+  "actor": "local and state police officers nationwide",
+  "category": "immigration",
+  "summary": "According to 404 Media, records obtained via a public records request to the Danville, Illinois police department showed that local and state police nationwide ran more than 4,000 searches of Flock's ALPR network for immigration-related and other ICE purposes between June 1, 2024 and May 5, 2025, despite ICE having no formal contract for the tool. The reporting found that while lookups mentioning ICE occurred under both the Biden and Trump administrations, every lookup that explicitly listed \"immigration\" as the reason was made after the Trump administration's 2025 inauguration. Flock's network spans more than 5,000 communities nationwide.",
+  "outcome": "The reporting prompted scrutiny of Flock's audit and access controls; some cities, including Evanston, IL, later cited data-sharing concerns including with federal immigration authorities when canceling their Flock contracts.",
+  "sources": [
+    {
+      "url": "https://www.404media.co/ice-taps-into-nationwide-ai-enabled-camera-network-data-shows/",
+      "outlet": "404 Media",
+      "date": "2025-05-27"
+    },
+    {
+      "url": "https://reason.com/2025/05/29/illinois-cops-gave-ice-access-to-more-than-5000-surveillance-cameras-nationwide/",
+      "outlet": "Reason",
+      "date": "2025-05-29"
+    }
+  ],
+  "verified": true,
+  "addedBy": "flock-off-research",
+  "addedDate": "2026-07-13"
+}

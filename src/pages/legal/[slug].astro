@@ -34,8 +34,8 @@ const LINK_TYPE_LABELS: Record<string, string> = {
     <h1>{legalCase.caseName}</h1>
     <p class="case-meta">
       {legalCase.court}
-      {legalCase.docketNumber && <> · Docket {legalCase.docketNumber}</>}
-       · {STATUS_LABELS[legalCase.status] ?? legalCase.status}
+      {legalCase.docketNumber && <> · Docket {legalCase.docketNumber}</>}{" "}
+      · {STATUS_LABELS[legalCase.status] ?? legalCase.status}
     </p>
 
     <Disclaimer />

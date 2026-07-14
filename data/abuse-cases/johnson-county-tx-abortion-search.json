@@ -1,0 +1,29 @@
+{
+  "id": "johnson-county-tx-abortion-search",
+  "title": "Johnson County, TX sheriff's office searched 83,000+ cameras nationwide over a suspected self-managed abortion",
+  "date": "2025-05-29",
+  "location": {
+    "county": "Johnson County",
+    "state": "TX"
+  },
+  "agency": "Johnson County Sheriff's Office (Texas)",
+  "actor": "a Johnson County Sheriff's Office official",
+  "category": "reproductive",
+  "summary": "According to 404 Media and a follow-up EFF investigation, a Johnson County Sheriff's Office official searched Flock Safety's ALPR network with the query reason \"had an abortion, search for female,\" then expanded the search to a full month of data across 6,809 networks, including 83,345 cameras nationwide, including in states where abortion is legal. Sheriff Adam King initially told 404 Media the search was a welfare check because the woman's family feared she would \"bleed to death,\" but internal records later obtained by EFF showed the search was logged as an abortion investigation. The Johnson County District Attorney's Office told deputies the state could not charge her for taking the pill to end the non-viable pregnancy.",
+  "outcome": "No charges were filed against the woman; the Johnson County DA's office said the state could not prosecute her for the conduct described. EFF's reporting prompted Flock Safety to remove some states from its national lookup tool.",
+  "sources": [
+    {
+      "url": "https://www.404media.co/a-texas-cop-searched-license-plate-cameras-nationwide-for-a-woman-who-got-an-abortion/",
+      "outlet": "404 Media",
+      "date": "2025-05-29"
+    },
+    {
+      "url": "https://www.eff.org/deeplinks/2025/10/flock-safety-and-texas-sheriff-claimed-license-plate-search-was-missing-person-it",
+      "outlet": "Electronic Frontier Foundation",
+      "date": "2025-10-07"
+    }
+  ],
+  "verified": true,
+  "addedBy": "flock-off-research",
+  "addedDate": "2026-07-13"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sedgwick-ks-police-chief-stalking",
+  "title": "Sedgwick, KS police chief used Flock cameras to track his ex-girlfriend 228 times",
+  "date": "2023-06-01",
+  "location": {
+    "city": "Sedgwick",
+    "state": "KS"
+  },
+  "agency": "Sedgwick Police Department (Kansas)",
+  "actor": "Sedgwick Police Chief Lee Nygaard",
+  "category": "stalking",
+  "summary": "According to KAKE News, then-Sedgwick Police Chief Lee Nygaard used Flock license plate readers to run his ex-girlfriend's plate 164 times and her new boyfriend's plate 64 times between June and October 2023, falsely logging the searches as investigations into missing children, drug activity, or suspicious activity. Nygaard also used a police vehicle to follow the two outside city limits. He initially claimed the searches related to drug concerns before acknowledging that jealousy was involved.",
+  "outcome": "Nygaard was placed on paid administrative leave in October 2023 and resigned shortly after. The Kansas Commission on Peace Officers' Standards and Training revoked his law enforcement certification. He was not criminally charged.",
+  "sources": [
+    {
+      "url": "https://www.kake.com/home/sedgwick-police-chief-tracked-ex-girlfriend-164-times-using-license-plate-cams/article_21fdfdba-5dc5-11ef-95c4-8be8baa3f10c.html",
+      "outlet": "KAKE News",
+      "date": "2024-08-18"
+    }
+  ],
+  "verified": true,
+  "addedBy": "flock-off-research",
+  "addedDate": "2026-07-13"
+}

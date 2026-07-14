@@ -1,0 +1,25 @@
+{
+  "id": "shaker-heights-oh-outside-agency-searches",
+  "title": "Shaker Heights, OH: 693,573 of 700,000+ Flock searches came from outside agencies, including 282 immigration-related",
+  "date": "2026-04-30",
+  "location": {
+    "city": "Shaker Heights",
+    "county": "Cuyahoga County",
+    "state": "OH"
+  },
+  "agency": "Shaker Heights Police Department",
+  "actor": "outside law enforcement agencies with access to Shaker Heights' Flock cameras",
+  "category": "data-sharing",
+  "summary": "According to News 5 Cleveland, an audit of Shaker Heights' Flock camera network found more than 700,000 total searches between December 20, 2025 and April 30, 2026, of which the Shaker Heights Police Department itself accounted for only 1,016. The remaining 693,573 searches were run by other law enforcement agencies in Ohio and nationwide. The audit found \"immigration\" listed as a search reason 282 times and ICE mentioned 32 times, despite outside-agency access to the city's cameras.",
+  "outcome": "Shaker Heights signed an amended Flock contract restricting outside access: no federal agency, no agency outside Ohio, and no agency with a 287(g) ICE cooperation agreement may access the city's data, and immigration-related search terms are prohibited.",
+  "sources": [
+    {
+      "url": "https://www.news5cleveland.com/news/local-news/investigations/shaker-heights-changes-flock-camera-policy-after-probe-finds-hundreds-of-outside-immigration-searches",
+      "outlet": "News 5 Cleveland",
+      "date": "2026-05-08"
+    }
+  ],
+  "verified": true,
+  "addedBy": "flock-off-research",
+  "addedDate": "2026-07-13"
+}

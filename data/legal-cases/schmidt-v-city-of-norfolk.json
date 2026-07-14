@@ -1,0 +1,24 @@
+{
+  "id": "schmidt-v-city-of-norfolk",
+  "caseName": "Schmidt v. City of Norfolk",
+  "court": "U.S. District Court, E.D. Va. (on appeal to the Fourth Circuit, No. 26-1227)",
+  "docketNumber": "2:24-cv-00621",
+  "status": "pending",
+  "issue": "alpr",
+  "filedDate": "2024-10-21",
+  "summary": "Represented by the Institute for Justice, Norfolk residents Lee Schmidt and Crystal Arrington sued after learning Flock ALPR cameras captured their vehicles 475 and 325 times respectively over four months. Norfolk has deployed nearly 200 ALPRs citywide. On January 27, 2026, the district court upheld the program, finding it did not amount to a Fourth Amendment search because the coverage was not continuous and captured only what was visible on public roads. The ACLU, ACLU of Virginia, and EFF filed an amicus brief supporting the plaintiffs' appeal to the Fourth Circuit on April 20, 2026; the appeal is ongoing.",
+  "whyItMatters": "This is one of the first direct tests of whether a citywide, saturating ALPR network amounts to the kind of continuous tracking that courts (including in the geofence/location-data cases) have found requires a warrant. A Fourth Circuit ruling would be an early appellate precedent specifically on ALPR networks.",
+  "links": [
+    {
+      "url": "https://www.aclu.org/cases/schmidt-v-norfolk",
+      "label": "ACLU case page",
+      "type": "docket"
+    },
+    {
+      "url": "https://www.courthousenews.com/judge-holds-norfolks-license-plate-reader-use-constitutional/",
+      "label": "Courthouse News: district court ruling",
+      "type": "news"
+    }
+  ],
+  "addedDate": "2026-07-13"
+}

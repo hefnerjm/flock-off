@@ -1,0 +1,28 @@
+{
+  "id": "siren-v-city-of-san-jose",
+  "caseName": "SIREN, et al. v. City of San Jose",
+  "court": "Santa Clara County Superior Court",
+  "status": "pending",
+  "issue": "alpr",
+  "filedDate": "2025-11-18",
+  "summary": "EFF and the ACLU of Northern California sued San Jose on behalf of the Services, Immigrant Rights and Education Network (SIREN) and the Council on American-Islamic Relations - California (CAIR-CA), alleging the city's nearly 500 ALPRs and year-long data retention let officers search a year's worth of any driver's movements without a warrant, violating the Fourth Amendment and the California Constitution's privacy protections. Reporting on the lawsuit cited 261,711 warrantless searches of San Jose's ALPR database between June 2024 and 2025. A separate federal class action over San Jose's ALPR use, brought by three residents with the Institute for Justice, is also pending.",
+  "whyItMatters": "San Jose's system - nearly 500 cameras with a full year of retention - is one of the largest single-city ALPR deployments being challenged in court, and tests both the federal and California constitutional theories at once.",
+  "links": [
+    {
+      "url": "https://www.eff.org/press/releases/lawsuit-challenges-san-joses-warrantless-alpr-mass-surveillance",
+      "label": "EFF press release",
+      "type": "filing"
+    },
+    {
+      "url": "https://www.theregister.com/2025/11/19/san_jose_alpr_suit/",
+      "label": "The Register: San Jose's license plate queries land it in court",
+      "type": "news"
+    },
+    {
+      "url": "https://www.eff.org/cases/siren-v-san-jose",
+      "label": "EFF case page",
+      "type": "docket"
+    }
+  ],
+  "addedDate": "2026-07-13"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatrie-v-united-states",
+  "caseName": "Chatrie v. United States",
+  "court": "U.S. Supreme Court",
+  "docketNumber": "25-112",
+  "status": "decided",
+  "issue": "geofence",
+  "filedDate": "2025-07-28",
+  "decidedDate": "2026-06-29",
+  "summary": "The Supreme Court held 6-3, in an opinion by Justice Kagan, that police acquisition of a person's cell-phone Location History data from Google via a geofence warrant is a Fourth Amendment search, rejecting the government's third-party-doctrine argument. The Court vacated the Fourth Circuit's judgment and remanded for further proceedings on whether the specific warrant satisfied the particularity and probable-cause requirements. The case originated from a 2019 credit union robbery investigation in Midlothian, Virginia. The Court did not rule on ALPRs or Flock Safety.",
+  "whyItMatters": "This is the clearest signal yet that the Supreme Court will extend Fourth Amendment protection to location data held by third parties, rejecting a narrow reading of the third-party doctrine. It doesn't decide the ALPR question, but it's the doctrinal foundation ALPR challenges are now building on.",
+  "links": [
+    {
+      "url": "https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf",
+      "label": "Supreme Court opinion, No. 25-112",
+      "type": "opinion"
+    },
+    {
+      "url": "https://www.scotusblog.com/cases/chatrie-v-united-states/",
+      "label": "SCOTUSblog case page",
+      "type": "docket"
+    }
+  ],
+  "addedDate": "2026-07-13"
+}

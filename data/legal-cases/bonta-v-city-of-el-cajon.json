@@ -1,0 +1,28 @@
+{
+  "id": "bonta-v-city-of-el-cajon",
+  "caseName": "Attorney General Bonta v. City of El Cajon",
+  "court": "San Diego County Superior Court",
+  "status": "pending",
+  "issue": "data-sharing",
+  "filedDate": "2025-10-03",
+  "summary": "California Attorney General Rob Bonta filed a petition for writ of mandate against El Cajon, alleging its police department shared ALPR data with more than 100 out-of-state and federal law enforcement agencies in violation of SB 34, the state law that excludes out-of-state and federal agencies from the 'public agencies' local police may share ALPR data with. El Cajon's mayor has said the city believes it is acting lawfully. On January 21, 2026, Bonta filed a motion asking the court to immediately halt the data sharing while the case proceeds.",
+  "whyItMatters": "This is the first case where a state attorney general has directly sued a city over ALPR data sharing, testing whether California's SB 34 restrictions on sharing plate data with out-of-state and federal agencies are enforceable in court, not just a policy the AG can only recommend.",
+  "links": [
+    {
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-sues-el-cajon-illegally-sharing-license-plate-data-out",
+      "label": "California DOJ press release: lawsuit filed",
+      "type": "filing"
+    },
+    {
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-continues-legal-challenge-stop-el-cajon-illegally-sharing",
+      "label": "California DOJ press release: motion to halt sharing",
+      "type": "filing"
+    },
+    {
+      "url": "https://calmatters.org/justice/2025/10/el-cajon-police-license-plate-data/",
+      "label": "CalMatters coverage",
+      "type": "news"
+    }
+  ],
+  "addedDate": "2026-07-13"
+}
