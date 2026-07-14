@@ -1,0 +1,73 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Disclaimer from "../../components/Disclaimer.astro";
+import { loadLegalCases } from "../../utils/loadData";
+
+export async function getStaticPaths() {
+  return loadLegalCases().map((legalCase) => ({
+    params: { slug: legalCase.id },
+    props: { legalCase },
+  }));
+}
+
+const { legalCase } = Astro.props;
+
+const STATUS_LABELS: Record<string, string> = {
+  filed: "Filed",
+  pending: "Pending",
+  decided: "Decided",
+  dismissed: "Dismissed",
+  settled: "Settled",
+};
+
+const LINK_TYPE_LABELS: Record<string, string> = {
+  opinion: "Opinion",
+  docket: "Docket",
+  filing: "Filing",
+  news: "News coverage",
+};
+---
+
+<BaseLayout title={legalCase.caseName} description={legalCase.whyItMatters}>
+  <article class="case-detail">
+    <p><a href="/legal/">← Back to legal tracker</a></p>
+    <h1>{legalCase.caseName}</h1>
+    <p class="case-meta">
+      {legalCase.court}
+      {legalCase.docketNumber && <> · Docket {legalCase.docketNumber}</>}
+       · {STATUS_LABELS[legalCase.status] ?? legalCase.status}
+    </p>
+
+    <Disclaimer />
+
+    <h2>Summary</h2>
+    <p>{legalCase.summary}</p>
+
+    <h2>Why it matters</h2>
+    <p>{legalCase.whyItMatters}</p>
+
+    <h2>Sources</h2>
+    <ul>
+      {legalCase.links.map((link: { url: string; label: string; type: string }) => (
+        <li>
+          <a href={link.url} target="_blank" rel="noopener">{link.label}</a>
+          {" "}({LINK_TYPE_LABELS[link.type] ?? link.type})
+        </li>
+      ))}
+    </ul>
+  </article>
+</BaseLayout>
+
+<style>
+  .case-detail {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  .case-meta {
+    opacity: 0.75;
+    font-size: 0.9rem;
+  }
+</style>

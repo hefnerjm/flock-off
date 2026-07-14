@@ -1,0 +1,71 @@
+---
+layout: ../../layouts/ArticleLayout.astro
+title: The State of the Law
+description: How Chatrie v. United States and the third-party doctrine shift set up the legal fight over ALPR surveillance.
+---
+
+import Disclaimer from "../../components/Disclaimer.astro";
+
+# The State of the Law
+
+<Disclaimer />
+
+## The doctrinal shift: *Chatrie v. United States*
+
+On June 29, 2026, the Supreme Court decided
+[*Chatrie v. United States*](https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf),
+609 U.S. \_\_\_ (No. 25-112) — a 6–3 decision written by Justice Kagan.
+
+The Court held that when police obtain a person's cell-phone location
+history from Google via a geofence warrant, that is a **Fourth Amendment
+search**, even though the data is held by a third party (Google). The
+government had argued that under the traditional "third-party doctrine,"
+people give up their expectation of privacy in data they voluntarily hand
+to a company. The Court rejected that argument for location history,
+reasoning that people don't meaningfully choose to expose a detailed record
+of their movements just by carrying a phone.
+
+Having decided that acquiring the data was a search, the Court did **not**
+go on to decide whether the geofence warrant in this case actually satisfied
+the Fourth Amendment's particularity and probable-cause requirements. It
+vacated the Fourth Circuit's judgment and remanded the case for that
+question to be resolved on remand.
+
+**What *Chatrie* did not do:** it is not a ruling about automated license
+plate readers or about Flock Safety specifically. No ALPR case has reached
+the Supreme Court.
+
+## Why it matters for the ALPR fight anyway
+
+*Chatrie* matters here because it is the clearest sign yet that the Supreme
+Court is willing to extend Fourth Amendment protection to location data held
+by third parties, rejecting a narrow reading of the third-party doctrine.
+ALPR networks — especially cross-jurisdictional systems that let one agency
+query another agency's camera data, or nationwide lookups spanning tens of
+thousands of cameras — raise a similar question: does a driver have a
+reasonable expectation of privacy in the aggregate record of everywhere
+their car has been photographed, even though each individual photograph was
+taken in public?
+
+The ALPR cases moving through lower courts right now (see the
+[legal tracker](/legal/)) are, in large part, arguments that the reasoning
+in *Chatrie* — and in the location-data cases before it — should extend to
+license plate data. None of them has been decided by the Supreme Court, and
+*Chatrie* itself did not rule on that question. Treat it as the doctrinal
+foundation those arguments are being built on, not as a ruling against Flock
+Safety or any ALPR vendor.
+
+## Where things stand
+
+- **Geofence/location data (cell phones):** *Chatrie* establishes that
+  acquiring this data is a search. Warrant particularity/probable-cause
+  standards for geofence warrants are still being worked out on remand.
+- **ALPR data:** unsettled. Multiple suits are testing whether warrantless
+  ALPR queries, especially cross-agency or out-of-state sharing, violate the
+  Fourth Amendment or state law. See the [legal tracker](/legal/) for the
+  current status of each.
+
+Sources:
+[Supreme Court opinion, No. 25-112](https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf) ·
+[SCOTUSblog case page](https://www.scotusblog.com/cases/chatrie-v-united-states/) ·
+[Justia case summary](https://supreme.justia.com/cases/federal/us/609/25-112/)
