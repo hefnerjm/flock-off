@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+:root {
+  --color-bg: #0b0d10;
+  --color-fg: #e8e8e8;
+  --color-accent: #ff3b30;
+}
+
+@theme {
+  --color-bg: var(--color-bg);
+  --color-fg: var(--color-fg);
+  --color-accent: var(--color-accent);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: system-ui, sans-serif;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.site-header nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-fg);
+}
+
+.site-footer {
+  padding: 2rem 1.5rem;
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}

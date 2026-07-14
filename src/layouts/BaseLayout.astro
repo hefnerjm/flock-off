@@ -1,0 +1,85 @@
+---
+import "../styles/global.css";
+import { site } from "../config/site";
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description = site.tagline,
+  ogImage = "/og-default.png",
+} = Astro.props;
+
+const pageTitle = title === site.name ? title : `${title} — ${site.name}`;
+const canonicalUrl = new URL(Astro.url.pathname, site.domain).toString();
+const ogImageUrl = new URL(ogImage, site.domain).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalUrl} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:site_name" content={site.name} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header class="site-header">
+      <nav aria-label="Primary">
+        <a class="brand" href="/">{site.name}</a>
+        <ul>
+          <li><a href="/map">Map</a></li>
+          <li><a href="/legal/">Legal Tracker</a></li>
+          <li><a href="/database/">Abuse Database</a></li>
+          <li><a href="/act/">Act in Your City</a></li>
+          <li><a href="/wins">Wins</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>
+        {site.name} is a nonpartisan project documenting Flock Safety ALPR
+        camera abuse and organizing to remove them from communities.
+      </p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 100;
+    background: var(--color-accent, #ff3b30);
+    color: #fff;
+    padding: 0.75rem 1rem;
+  }
+  .skip-link:focus {
+    left: 0;
+  }
+</style>
