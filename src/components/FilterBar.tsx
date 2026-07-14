@@ -77,7 +77,7 @@ export default function FilterBar({ cases }: Props) {
           {filtered.map((c) => (
             <li key={c.id} class="case-card">
               <a href={`/legal/${c.id}`}>
-                <h3>{c.caseName}</h3>
+                <h2>{c.caseName}</h2>
               </a>
               <p class="case-meta">
                 {c.court} · {STATUS_LABELS[c.status] ?? c.status} · {ISSUE_LABELS[c.issue] ?? c.issue}

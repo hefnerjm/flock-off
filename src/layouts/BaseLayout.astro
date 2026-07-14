@@ -43,6 +43,7 @@ const ogImageUrl = new URL(ogImage, site.domain).toString();
     <meta name="twitter:image" content={ogImageUrl} />
 
     <meta name="generator" content={Astro.generator} />
+    <slot name="head" />
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -81,7 +82,7 @@ const ogImageUrl = new URL(ogImage, site.domain).toString();
     left: -9999px;
     top: 0;
     z-index: 100;
-    background: var(--color-accent, #ff3b30);
+    background: var(--color-accent-contrast, #c62828);
     color: #fff;
     padding: 0.75rem 1rem;
   }

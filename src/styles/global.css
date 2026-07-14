@@ -4,6 +4,11 @@
   --color-bg: #0b0d10;
   --color-fg: #e8e8e8;
   --color-accent: #ff3b30;
+  /* #ff3b30 is ~3.55:1 against white text - below WCAG AA's 4.5:1 for
+     normal text. Use this darker shade (~5.6:1) for filled buttons/badges
+     with white text; keep --color-accent for text-on-dark-bg contexts
+     (headings, links, the counter number), which already pass AA there. */
+  --color-accent-contrast: #c62828;
 }
 
 @theme {

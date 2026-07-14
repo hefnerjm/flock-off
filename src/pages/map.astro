@@ -32,6 +32,12 @@ const wins = loadWins()
 ---
 
 <BaseLayout title="Camera Map" description="Interactive map of Flock Safety ALPR camera locations, documented abuse incidents, and cities that canceled Flock contracts.">
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://tile.openstreetmap.org" />
+    <link rel="preconnect" href="https://a.tile.openstreetmap.org" />
+    <link rel="preconnect" href="https://b.tile.openstreetmap.org" />
+    <link rel="preconnect" href="https://c.tile.openstreetmap.org" />
+  </Fragment>
   <section class="page-header">
     <h1>Camera Map</h1>
     <p>
@@ -41,12 +47,22 @@ const wins = loadWins()
     </p>
   </section>
 
-  <MapIsland client:only="preact" abuseIncidents={abuseIncidents} wins={wins} defaultPreset="bexar" />
+  <div class="map-shell">
+    <MapIsland client:only="preact" abuseIncidents={abuseIncidents} wins={wins} defaultPreset="bexar" />
+  </div>
 </BaseLayout>
 
 <style>
   .page-header {
     padding: 2rem 1.5rem 1rem;
+  }
+
+  /* client:only renders nothing server-side, so without this the footer
+     jumps up ~200px on first paint and jumps back down once the island
+     mounts - reserving roughly the final rendered height here (measured
+     via Lighthouse CLS culprit trace) avoids that shift entirely. */
+  .map-shell {
+    min-height: calc(70vh + 160px);
   }
 
   :global(.map-island) {
@@ -74,8 +90,8 @@ const wins = loadWins()
   }
 
   :global(.preset-btn.active) {
-    background: var(--color-accent, #ff3b30);
-    border-color: var(--color-accent, #ff3b30);
+    background: var(--color-accent-contrast, #c62828);
+    border-color: var(--color-accent-contrast, #c62828);
     color: #fff;
   }
 
