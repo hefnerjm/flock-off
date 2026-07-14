@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import EmailSignup from "../components/EmailSignup.astro";
+---
+
+<BaseLayout title="Join" description="Get updates on Flock Safety camera abuse cases, legal challenges, and organizing wins in your area.">
+  <section class="join-page">
+    <h1>Join</h1>
+    <p>
+      Get updates on new documented cases, legal developments, and organizing
+      wins — tell us your city and county so we can send what's relevant to
+      you first.
+    </p>
+    <EmailSignup variant="full" />
+  </section>
+</BaseLayout>
+
+<style>
+  .join-page {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+</style>

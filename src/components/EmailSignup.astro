@@ -1,0 +1,96 @@
+---
+import { emailConfig } from "../config/emailProvider";
+
+interface Props {
+  // "full" adds county/city fields for segmentation (used on /join);
+  // "compact" is just an email field (used in the footer).
+  variant?: "full" | "compact";
+}
+
+const { variant = "compact" } = Astro.props;
+const { provider } = emailConfig;
+---
+
+{provider === "none" && (
+  <p class="email-signup-placeholder">Email signup is coming soon.</p>
+)}
+
+{provider === "buttondown" && (
+  <form
+    class="email-signup"
+    action={`https://buttondown.com/api/emails/embed-subscribe/${emailConfig.buttondown.username}`}
+    method="post"
+    target="popupwindow"
+  >
+    <label>
+      <span class="sr-only">Email address</span>
+      <input type="email" name="email" placeholder="you@example.com" required />
+    </label>
+    {variant === "full" && (
+      <>
+        <label>
+          <span class="sr-only">County</span>
+          <input type="text" name="county" placeholder="County" />
+        </label>
+        <label>
+          <span class="sr-only">City</span>
+          <input type="text" name="city" placeholder="City" />
+        </label>
+      </>
+    )}
+    <input type="hidden" name="embed" value="1" />
+    <button type="submit">Subscribe</button>
+  </form>
+)}
+
+{provider === "action-network" && (
+  <form class="email-signup" action={emailConfig.actionNetwork.formActionUrl} method="post">
+    <label>
+      <span class="sr-only">Email address</span>
+      <input type="email" name="email" placeholder="you@example.com" required />
+    </label>
+    {variant === "full" && (
+      <>
+        <label>
+          <span class="sr-only">County</span>
+          <input type="text" name="county" placeholder="County" />
+        </label>
+        <label>
+          <span class="sr-only">City</span>
+          <input type="text" name="city" placeholder="City" />
+        </label>
+      </>
+    )}
+    <button type="submit">Subscribe</button>
+  </form>
+)}
+
+<style>
+  .email-signup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .email-signup input {
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid rgba(232, 232, 232, 0.3);
+    background: transparent;
+    color: inherit;
+  }
+
+  .email-signup button {
+    background: var(--color-accent, #ff3b30);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .email-signup-placeholder {
+    opacity: 0.75;
+    font-size: 0.9rem;
+  }
+</style>

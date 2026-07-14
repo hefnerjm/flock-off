@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { site } from "../config/site";
+import EmailSignup from "../components/EmailSignup.astro";
 
 interface Props {
   title: string;
@@ -54,6 +55,7 @@ const ogImageUrl = new URL(ogImage, site.domain).toString();
           <li><a href="/database/">Abuse Database</a></li>
           <li><a href="/act/">Act in Your City</a></li>
           <li><a href="/wins">Wins</a></li>
+          <li><a href="/join">Join</a></li>
         </ul>
       </nav>
     </header>
@@ -65,6 +67,10 @@ const ogImageUrl = new URL(ogImage, site.domain).toString();
         {site.name} is a nonpartisan project documenting Flock Safety ALPR
         camera abuse and organizing to remove them from communities.
       </p>
+      <div class="footer-signup">
+        <p>Get updates on new cases, wins, and organizing tools:</p>
+        <EmailSignup variant="compact" />
+      </div>
     </footer>
   </body>
 </html>
@@ -81,5 +87,13 @@ const ogImageUrl = new URL(ogImage, site.domain).toString();
   }
   .skip-link:focus {
     left: 0;
+  }
+
+  .footer-signup {
+    margin-top: 1rem;
+  }
+
+  .footer-signup p {
+    margin: 0 0 0.5rem;
   }
 </style>
