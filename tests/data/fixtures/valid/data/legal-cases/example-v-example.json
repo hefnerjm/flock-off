@@ -1,0 +1,18 @@
+{
+  "id": "example-v-example",
+  "caseName": "Example v. Example County",
+  "court": "U.S. District Court",
+  "status": "pending",
+  "issue": "alpr",
+  "filedDate": "2025-03-01",
+  "summary": "Plaintiffs allege the county's ALPR network was used to track their movements without a warrant, in violation of the Fourth Amendment.",
+  "whyItMatters": "Could establish whether warrantless ALPR tracking violates the Fourth Amendment in this circuit.",
+  "links": [
+    {
+      "url": "https://example.com/court/filing",
+      "label": "Complaint",
+      "type": "filing"
+    }
+  ],
+  "addedDate": "2025-03-02"
+}

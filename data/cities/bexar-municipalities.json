@@ -1,0 +1,13 @@
+[
+  { "slug": "san-antonio", "name": "San Antonio", "county": "Bexar", "state": "TX" },
+  { "slug": "live-oak", "name": "Live Oak", "county": "Bexar", "state": "TX" },
+  { "slug": "converse", "name": "Converse", "county": "Bexar", "state": "TX" },
+  { "slug": "cibolo", "name": "Cibolo", "county": "Bexar", "state": "TX" },
+  { "slug": "universal-city", "name": "Universal City", "county": "Bexar", "state": "TX" },
+  { "slug": "schertz", "name": "Schertz", "county": "Bexar", "state": "TX" },
+  { "slug": "leon-valley", "name": "Leon Valley", "county": "Bexar", "state": "TX" },
+  { "slug": "alamo-heights", "name": "Alamo Heights", "county": "Bexar", "state": "TX" },
+  { "slug": "balcones-heights", "name": "Balcones Heights", "county": "Bexar", "state": "TX" },
+  { "slug": "windcrest", "name": "Windcrest", "county": "Bexar", "state": "TX" },
+  { "slug": "kirby", "name": "Kirby", "county": "Bexar", "state": "TX" }
+]

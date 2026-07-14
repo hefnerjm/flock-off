@@ -1,0 +1,25 @@
+{
+  "id": "2025-example-case",
+  "title": "Example department accesses ALPR data without a warrant",
+  "date": "2025-01-15",
+  "location": {
+    "city": "Example City",
+    "county": "Example County",
+    "state": "TX"
+  },
+  "agency": "Example Police Department",
+  "actor": "a police officer",
+  "category": "warrantless-dragnet",
+  "summary": "According to a news investigation, an officer queried the regional ALPR network without a warrant to track a vehicle unrelated to an active investigation.",
+  "outcome": "Under internal review as of the source's publication date.",
+  "sources": [
+    {
+      "url": "https://example.com/news/alpr-warrantless-access",
+      "outlet": "Example News",
+      "date": "2025-01-20"
+    }
+  ],
+  "verified": true,
+  "addedBy": "test-fixture",
+  "addedDate": "2025-01-21"
+}

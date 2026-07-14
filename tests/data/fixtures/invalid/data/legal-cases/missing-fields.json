@@ -1,0 +1,8 @@
+{
+  "id": "missing-fields",
+  "caseName": "Incomplete v. Example",
+  "court": "U.S. District Court",
+  "status": "pending",
+  "issue": "alpr",
+  "filedDate": "2025-03-01"
+}

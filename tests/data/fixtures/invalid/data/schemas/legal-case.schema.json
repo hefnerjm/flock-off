@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flockoff.org/schemas/legal-case.schema.json",
+  "title": "LegalCase",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "caseName",
+    "court",
+    "status",
+    "issue",
+    "filedDate",
+    "summary",
+    "whyItMatters",
+    "links",
+    "addedDate"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "caseName": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 200
+    },
+    "court": {
+      "type": "string",
+      "description": "e.g. \"U.S. Supreme Court\", \"E.D. Va.\", \"Fourth Circuit\""
+    },
+    "docketNumber": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["filed", "pending", "decided", "dismissed", "settled"]
+    },
+    "issue": {
+      "type": "string",
+      "enum": [
+        "geofence",
+        "alpr",
+        "data-sharing",
+        "first-amendment",
+        "other"
+      ]
+    },
+    "filedDate": { "type": "string", "format": "date" },
+    "decidedDate": { "type": "string", "format": "date" },
+    "summary": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 2000,
+      "description": "What the case is about and, if decided, precisely what it held — do not overstate the holding."
+    },
+    "whyItMatters": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 1000,
+      "description": "Plain-English explanation for non-lawyers"
+    },
+    "links": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "label", "type"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          },
+          "label": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["opinion", "docket", "filing", "news"]
+          }
+        }
+      }
+    },
+    "addedDate": { "type": "string", "format": "date" }
+  }
+}

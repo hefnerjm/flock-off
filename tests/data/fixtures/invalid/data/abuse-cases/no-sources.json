@@ -1,0 +1,15 @@
+{
+  "id": "no-sources",
+  "title": "A case with no sources at all",
+  "date": "2025-01-15",
+  "location": {
+    "state": "TX"
+  },
+  "actor": "a police officer",
+  "category": "other",
+  "summary": "This entry has no sources and must fail validation regardless of schema shape.",
+  "sources": [],
+  "verified": false,
+  "addedBy": "test-fixture",
+  "addedDate": "2025-01-21"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "wrong-id",
+  "title": "A case whose id does not match its filename",
+  "date": "2025-01-15",
+  "location": {
+    "state": "TX"
+  },
+  "actor": "a police officer",
+  "category": "other",
+  "summary": "This entry's id field intentionally does not match its filename, which the business rule should catch.",
+  "sources": [
+    {
+      "url": "https://example.com/news/story",
+      "outlet": "Example News",
+      "date": "2025-01-20"
+    }
+  ],
+  "verified": false,
+  "addedBy": "test-fixture",
+  "addedDate": "2025-01-21"
+}
