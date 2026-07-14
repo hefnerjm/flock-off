@@ -1,0 +1,62 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadWins } from "../utils/loadData";
+
+const wins = [...loadWins()].sort((a, b) => (a.date < b.date ? 1 : -1));
+---
+
+<BaseLayout title="Wins" description="Cities that have canceled or rejected Flock Safety contracts.">
+  <section class="page-header">
+    <h1>Wins</h1>
+    <p>
+      Every city on this list canceled or rejected a Flock Safety contract.
+      Each entry links to its source — proof that organizing works. Know one
+      we're missing? <a href="/database/submit">Let us know</a>.
+    </p>
+  </section>
+
+  {wins.length === 0 ? (
+    <p class="empty-state">No wins documented yet — check back soon.</p>
+  ) : (
+    <ul class="wins-list">
+      {wins.map((w) => (
+        <li>
+          <h2>{w.city}, {w.state}</h2>
+          <p>{w.date}</p>
+          <a href={w.sourceUrl} target="_blank" rel="noopener">Source →</a>
+        </li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  .page-header {
+    padding: 2rem 1.5rem 1rem;
+  }
+
+  .empty-state {
+    padding: 0 1.5rem 3rem;
+    opacity: 0.8;
+  }
+
+  .wins-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .wins-list li {
+    border: 1px solid rgba(52, 199, 89, 0.4);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+
+  .wins-list h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.1rem;
+  }
+</style>

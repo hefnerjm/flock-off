@@ -58,6 +58,12 @@ export interface Municipality {
   name: string;
   county: string;
   state: string;
+  // Populated during the research pass (task 12) - undefined until then,
+  // never guessed. flockStatusSource is required whenever flockStatus is set.
+  flockStatus?: "deployed" | "none" | "canceled";
+  flockStatusSource?: string;
+  councilMeetingUrl?: string;
+  publicCommentUrl?: string;
 }
 
 export function loadAbuseCases(): AbuseCase[] {

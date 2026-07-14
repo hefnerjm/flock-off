@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CityPicker from "../../components/CityPicker.tsx";
+import { loadMunicipalities } from "../../utils/loadData";
+
+const municipalities = loadMunicipalities().map((m) => ({ slug: m.slug, name: m.name }));
+---
+
+<BaseLayout title="Act in Your City" description="Find your city's Flock status and get a tailored organizing brief.">
+  <section class="page-header">
+    <h1>Act in Your City</h1>
+    <p>
+      Starting with Bexar County, TX. Pick your city for its Flock status,
+      council meeting info, and a one-page brief you can bring to a meeting.
+    </p>
+  </section>
+
+  <CityPicker client:load municipalities={municipalities} />
+
+  <section class="templates-teaser">
+    <h2>Organizing templates</h2>
+    <ul>
+      <li><a href="/act/templates/public-comment">Public comment scripts</a> (60/90/180 second)</li>
+      <li><a href="/act/templates/council-letter">Letter to a council member</a></li>
+      <li><a href="/act/templates/pia-request">Texas Public Information Act request</a></li>
+      <li><a href="/act/templates/op-ed">Op-ed skeleton</a></li>
+    </ul>
+    <p>See also: <a href="/wins">cities that have already canceled or rejected Flock</a>.</p>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    padding: 2rem 1.5rem 1rem;
+  }
+
+  :global(.city-picker) {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0 1.5rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  :global(.city-picker button) {
+    background: var(--color-accent, #ff3b30);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  :global(.city-picker button:disabled) {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .templates-teaser {
+    padding: 1rem 1.5rem 3rem;
+  }
+
+  .templates-teaser ul {
+    line-height: 2;
+  }
+</style>

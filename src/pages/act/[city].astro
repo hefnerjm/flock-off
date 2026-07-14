@@ -1,0 +1,79 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadMunicipalities } from "../../utils/loadData";
+
+export async function getStaticPaths() {
+  return loadMunicipalities().map((m) => ({
+    params: { city: m.slug },
+    props: { municipality: m },
+  }));
+}
+
+const { municipality } = Astro.props;
+
+const STATUS_LABELS: Record<string, string> = {
+  deployed: "Flock cameras are deployed",
+  none: "No known Flock deployment",
+  canceled: "Flock contract canceled or rejected",
+};
+---
+
+<BaseLayout
+  title={`Act in ${municipality.name}`}
+  description={`Flock status, council info, and an organizing brief for ${municipality.name}, ${municipality.state}.`}
+>
+  <article class="city-brief">
+    <p><a href="/act/">← Choose a different city</a></p>
+    <h1>{municipality.name}, {municipality.state}</h1>
+
+    <h2>Flock status</h2>
+    {municipality.flockStatus ? (
+      <>
+        <p>{STATUS_LABELS[municipality.flockStatus] ?? municipality.flockStatus}</p>
+        {municipality.flockStatusSource && (
+          <p>
+            <a href={municipality.flockStatusSource} target="_blank" rel="noopener">Source →</a>
+          </p>
+        )}
+      </>
+    ) : (
+      <p>
+        We haven't documented this city's Flock status yet. If you know it,{" "}
+        <a href="/database/submit">let us know</a>.
+      </p>
+    )}
+
+    <h2>Council meetings</h2>
+    {municipality.councilMeetingUrl ? (
+      <p><a href={municipality.councilMeetingUrl} target="_blank" rel="noopener">Meeting schedule →</a></p>
+    ) : (
+      <p>Meeting schedule not documented yet.</p>
+    )}
+
+    <h2>Public comment</h2>
+    {municipality.publicCommentUrl ? (
+      <p><a href={municipality.publicCommentUrl} target="_blank" rel="noopener">Sign up to speak →</a></p>
+    ) : (
+      <p>Sign-up process not documented yet — check your city's council agenda page.</p>
+    )}
+    <p>
+      Use our <a href="/act/templates/public-comment">public comment scripts</a> to prepare.
+    </p>
+
+    <h2>Bring the evidence</h2>
+    <p>
+      See the <a href="/database/">abuse database</a> and{" "}
+      <a href="/legal/">legal tracker</a> for documented cases and pending
+      lawsuits you can cite.
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .city-brief {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+</style>

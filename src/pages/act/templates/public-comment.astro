@@ -1,0 +1,114 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const scripts = [
+  {
+    id: "60s",
+    label: "60 seconds",
+    text: `My name is [YOUR NAME], and I live in [YOUR NEIGHBORHOOD/DISTRICT]. I'm asking the council to reconsider [CITY]'s contract with Flock Safety.
+
+These camera networks log every vehicle that passes, not just suspects, and the data can be shared with outside agencies. [CITE A SPECIFIC DOCUMENTED CASE FROM flockoff.org/database HERE, IF ONE APPLIES].
+
+Before renewing or expanding this contract, I'm asking the council to require public audit logs, restrict data sharing outside our jurisdiction, and put this contract up for real public review. Thank you.`,
+  },
+  {
+    id: "90s",
+    label: "90 seconds",
+    text: `My name is [YOUR NAME], a resident of [YOUR NEIGHBORHOOD/DISTRICT]. I'm here about [CITY]'s Flock Safety automated license plate reader contract.
+
+I want to be clear: this isn't about being anti-police. It's about accountability for a system that logs the movements of every driver in this city, regardless of suspicion, and retains that data for [RETENTION PERIOD, IF KNOWN].
+
+[CITE 1-2 SPECIFIC, SOURCED EXAMPLES FROM flockoff.org/database OR flockoff.org/legal HERE — don't assert claims you can't back with a link.]
+
+I'm asking this council to do three things: publish regular public audit logs of who searches our camera data and why; restrict or end data-sharing with agencies outside [STATE]; and commit to a public vote before this contract is renewed or expanded. Our residents deserve to know how this system is actually being used. Thank you.`,
+  },
+  {
+    id: "180s",
+    label: "180 seconds",
+    text: `My name is [YOUR NAME], and I've lived in [YOUR NEIGHBORHOOD/DISTRICT] for [X YEARS]. I'm asking this council to take a hard look at [CITY]'s contract with Flock Safety before it's renewed or expanded.
+
+Here's what these camera systems actually do: every car that passes a Flock camera gets logged — plate, location, time, and often a photo of the vehicle. That data doesn't just sit there; it's searchable, and can be shared with other agencies, sometimes far outside our city or state.
+
+[THIS IS WHERE YOUR SPECIFICS GO. Pull 1-2 sourced, documented cases from flockoff.org/database or pending lawsuits from flockoff.org/legal that are relevant to your city or state. Cite the source out loud if you can — it carries more weight than a general claim.]
+
+None of this means license plate readers can never be part of law enforcement. It means the public deserves real guardrails: public, regular audit logs of who is searching this data and why; hard limits on which outside agencies can query our data, if any; a clear data retention limit; and a real public process — not a quiet renewal — before this contract continues.
+
+I'd ask the council to direct staff to bring back a public audit report and a data-sharing policy before any renewal vote. Thank you for your time.`,
+  },
+];
+---
+
+<BaseLayout title="Public Comment Scripts" description="60/90/180-second public comment scripts for city council meetings about Flock Safety contracts.">
+  <article class="template-page">
+    <p><a href="/act/">← Back to Act in Your City</a></p>
+    <h1>Public Comment Scripts</h1>
+    <p>
+      Fill in the bracketed placeholders, then practice reading it aloud —
+      most councils enforce the time limit strictly. Cite specific documented
+      cases from our <a href="/database/">abuse database</a> if you want to
+      make it concrete.
+    </p>
+
+    {scripts.map((s) => (
+      <section class="script-block">
+        <h2>{s.label}</h2>
+        <pre id={`script-${s.id}`}>{s.text}</pre>
+        <button type="button" class="copy-btn" data-copy-target={`script-${s.id}`}>
+          Copy to clipboard
+        </button>
+      </section>
+    ))}
+  </article>
+</BaseLayout>
+
+<style>
+  .template-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  .script-block {
+    margin: 2rem 0;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    background: rgba(232, 232, 232, 0.06);
+    border: 1px solid rgba(232, 232, 232, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+  }
+
+  .copy-btn {
+    background: transparent;
+    border: 1px solid var(--color-fg, #e8e8e8);
+    color: var(--color-fg, #e8e8e8);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".copy-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const targetId = btn.dataset.copyTarget;
+      const el = targetId && document.getElementById(targetId);
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.textContent ?? "");
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 1500);
+      } catch {
+        // clipboard API unavailable/denied - user can still select+copy manually
+      }
+    });
+  });
+</script>

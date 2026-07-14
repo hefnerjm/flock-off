@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Disclaimer from "../../../components/Disclaimer.astro";
+
+const template = `To the Public Information Officer of [AGENCY/CITY NAME]:
+
+Under the Texas Public Information Act, Texas Government Code Chapter 552, I am requesting copies of the following public records:
+
+1. The current contract(s), including any amendments, between [AGENCY/CITY NAME] and Flock Safety, Inc. (or any automated license plate reader / ALPR vendor).
+2. Any policy or procedure governing who may query the ALPR/Flock camera system, for what purposes, and under what authorization.
+3. Audit logs or search-history reports of ALPR/Flock system queries for the period [START DATE] through [END DATE], including which agency or officer made each search and the stated reason, to the extent such logs are not confidential under law.
+4. Any records of data-sharing agreements with agencies outside [CITY/COUNTY], including any out-of-state agencies.
+
+If any portion of this request is denied or withheld, please cite the specific statutory exception you are relying on, as required by Chapter 552.
+
+Under Section 552.221, a governmental body must, within 10 business days of receiving this request, either provide the requested information or certify in writing when it will be available. Please treat this as a request for information "promptly" available, per that section.
+
+If there are any fees associated with fulfilling this request, please notify me before incurring costs above [DOLLAR AMOUNT, OPTIONAL].
+
+Please send responsive records to:
+[YOUR NAME]
+[YOUR EMAIL OR MAILING ADDRESS]
+
+Thank you,
+[YOUR NAME]
+[DATE]`;
+---
+
+<BaseLayout title="Texas Public Information Act Request Template" description="Template for requesting Flock Safety contracts and ALPR audit logs under the Texas Public Information Act.">
+  <article class="template-page">
+    <p><a href="/act/">← Back to Act in Your City</a></p>
+    <h1>Texas Public Information Act Request</h1>
+
+    <Disclaimer text="This template is provided for general public education and is not legal advice. Confirm current requirements and any fee rules with the agency or an attorney before submitting." />
+
+    <p>
+      Under Texas Government Code Chapter 552 (the Public Information Act), a
+      governmental body must respond within 10 business days of receiving a
+      request — either producing the records or certifying in writing when
+      they'll be available (Tex. Gov't Code § 552.221). Audit logs are one of
+      the most useful documents you can request: they're often how ALPR
+      misuse gets discovered in the first place.
+    </p>
+
+    <pre id="pia-template">{template}</pre>
+    <button type="button" class="copy-btn" data-copy-target="pia-template">Copy to clipboard</button>
+
+    <p>
+      Once you get a response, consider <a href="/database/submit">submitting</a>{" "}
+      anything notable you find to our abuse database.
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .template-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    background: rgba(232, 232, 232, 0.06);
+    border: 1px solid rgba(232, 232, 232, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+  }
+
+  .copy-btn {
+    background: transparent;
+    border: 1px solid var(--color-fg, #e8e8e8);
+    color: var(--color-fg, #e8e8e8);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".copy-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const targetId = btn.dataset.copyTarget;
+      const el = targetId && document.getElementById(targetId);
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.textContent ?? "");
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 1500);
+      } catch {
+        // clipboard API unavailable/denied - user can still select+copy manually
+      }
+    });
+  });
+</script>

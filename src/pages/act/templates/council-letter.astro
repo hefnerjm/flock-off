@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const template = `Dear Council Member [NAME],
+
+I'm writing as a constituent in [DISTRICT/NEIGHBORHOOD] about [CITY]'s contract with Flock Safety for automated license plate reader (ALPR) cameras.
+
+I understand the appeal of tools that help solve crimes. But these systems log every vehicle that passes a camera, not just suspects, and that data can be searched by other agencies, sometimes with little local oversight. [OPTIONAL: cite a specific, sourced example relevant to your area from flockoff.org/database or flockoff.org/legal — don't state a claim you can't back with a link.]
+
+Before this contract is renewed or expanded, I'm asking you to support:
+
+- Public, regular audit logs showing who searches our camera data and why
+- Clear limits on which outside agencies, if any, can query our data
+- A defined data retention limit
+- A real public process, including a council vote, before any renewal or expansion
+
+I'd welcome the chance to discuss this further, or to speak at a future council meeting. Thank you for your time and representation.
+
+Sincerely,
+[YOUR NAME]
+[YOUR ADDRESS OR NEIGHBORHOOD]
+[YOUR EMAIL OR PHONE, OPTIONAL]`;
+---
+
+<BaseLayout title="Letter to a Council Member" description="Template letter to a city council member about a Flock Safety ALPR contract.">
+  <article class="template-page">
+    <p><a href="/act/">← Back to Act in Your City</a></p>
+    <h1>Letter to a Council Member</h1>
+    <p>
+      A short, direct letter tends to get read. Fill in the brackets, and
+      cite a specific sourced case from our <a href="/database/">database</a>{" "}
+      or <a href="/legal/">legal tracker</a> if one is relevant to your city.
+    </p>
+
+    <pre id="letter-template">{template}</pre>
+    <button type="button" class="copy-btn" data-copy-target="letter-template">Copy to clipboard</button>
+  </article>
+</BaseLayout>
+
+<style>
+  .template-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    background: rgba(232, 232, 232, 0.06);
+    border: 1px solid rgba(232, 232, 232, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+  }
+
+  .copy-btn {
+    background: transparent;
+    border: 1px solid var(--color-fg, #e8e8e8);
+    color: var(--color-fg, #e8e8e8);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".copy-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const targetId = btn.dataset.copyTarget;
+      const el = targetId && document.getElementById(targetId);
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.textContent ?? "");
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 1500);
+      } catch {
+        // clipboard API unavailable/denied - user can still select+copy manually
+      }
+    });
+  });
+</script>

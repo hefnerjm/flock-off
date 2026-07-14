@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+const template = `[HEADLINE — keep it concrete and local, e.g. "[CITY] should audit its license plate camera contract before renewing it"]
+
+[LEDE — 1-2 sentences: what's happening right now in your city. E.g. "[CITY] council is set to vote on renewing its contract with Flock Safety on [DATE], with almost no public discussion of how the system has actually been used."]
+
+[PARAGRAPH 2 — what these systems do, plainly. Explain that ALPR cameras log every passing vehicle, not just suspects, and that the data is often searchable by other agencies. Avoid overstating what you can't cite.]
+
+[PARAGRAPH 3 — the stakes, backed by a specific, sourced example if one applies to your city or state. Pull a documented case from flockoff.org/database or a pending lawsuit from flockoff.org/legal — link to your source. If nothing specific applies to your city yet, it's fine to make the general accountability argument without inventing a local example.]
+
+[PARAGRAPH 4 — what you're asking for. Be specific and achievable: public audit logs, limits on outside-agency data sharing, a data retention cap, a real public vote before renewal.]
+
+[CLOSING — bring it back to the local decision point. E.g. "Before the council votes on [DATE], residents deserve to see how this system has actually been used — not just how it was pitched."]
+
+— [YOUR NAME], [YOUR CITY/NEIGHBORHOOD]`;
+---
+
+<BaseLayout title="Op-Ed Skeleton" description="Skeleton structure for an op-ed about a local Flock Safety ALPR contract.">
+  <article class="template-page">
+    <p><a href="/act/">← Back to Act in Your City</a></p>
+    <h1>Op-Ed Skeleton</h1>
+    <p>
+      Local papers and outlets are far more likely to run something short,
+      specific, and tied to an actual upcoming vote than a general argument.
+      Fill in the brackets — and only cite specifics you can link to from our{" "}
+      <a href="/database/">database</a> or <a href="/legal/">legal tracker</a>.
+    </p>
+
+    <pre id="op-ed-template">{template}</pre>
+    <button type="button" class="copy-btn" data-copy-target="op-ed-template">Copy to clipboard</button>
+  </article>
+</BaseLayout>
+
+<style>
+  .template-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+    line-height: 1.7;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    background: rgba(232, 232, 232, 0.06);
+    border: 1px solid rgba(232, 232, 232, 0.15);
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+  }
+
+  .copy-btn {
+    background: transparent;
+    border: 1px solid var(--color-fg, #e8e8e8);
+    color: var(--color-fg, #e8e8e8);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>(".copy-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const targetId = btn.dataset.copyTarget;
+      const el = targetId && document.getElementById(targetId);
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.textContent ?? "");
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 1500);
+      } catch {
+        // clipboard API unavailable/denied - user can still select+copy manually
+      }
+    });
+  });
+</script>
