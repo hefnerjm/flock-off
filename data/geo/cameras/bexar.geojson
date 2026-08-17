@@ -975,50 +975,6 @@
     },
     {
       "type": "Feature",
-      "id": 12922402199,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.342297,
-          29.575562
-        ]
-      },
-      "properties": {
-        "osm_id": 12922402199,
-        "camera:type": "fixed",
-        "direction": "190",
-        "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
-        "operator": "Live Oak",
-        "operator:wikidata": "Q981467",
-        "surveillance:type": "ALPR"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12922402200,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.3441162,
-          29.566959
-        ]
-      },
-      "properties": {
-        "osm_id": 12922402200,
-        "camera:type": "fixed",
-        "direction": "310",
-        "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
-        "operator": "Live Oak",
-        "operator:wikidata": "Q981467",
-        "surveillance:type": "ALPR"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 12922440301,
       "geometry": {
         "type": "Point",
@@ -1877,6 +1833,8 @@
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
+        "operator": "Lowe's",
+        "operator:wikidata": "Q1373493",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -1921,6 +1879,8 @@
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
+        "operator": "Lowe's",
+        "operator:wikidata": "Q1373493",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -2305,6 +2265,8 @@
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
+        "operator": "Lowe's",
+        "operator:wikidata": "Q1373493",
         "surveillance": "traffic",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -3031,7 +2993,7 @@
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
-        "surveillance": "traffic",
+        "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
       }
@@ -3195,14 +3157,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.6232108,
-          29.5773926
+          -98.6231163,
+          29.5773571
         ]
       },
       "properties": {
         "osm_id": 13182006036,
         "camera:type": "fixed",
-        "direction": "20",
+        "direction": "332",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
@@ -4429,14 +4391,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.7476865,
-          29.4297967
+          -98.7476856,
+          29.429792
         ]
       },
       "properties": {
         "osm_id": 13352413328,
         "camera:type": "fixed",
-        "direction": "306-351",
+        "direction": "199",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
@@ -6518,28 +6480,6 @@
     },
     {
       "type": "Feature",
-      "id": 13533446001,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.7872842,
-          29.4352266
-        ]
-      },
-      "properties": {
-        "osm_id": 13533446001,
-        "camera:type": "fixed",
-        "direction": "38",
-        "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
-        "surveillance": "public",
-        "surveillance:type": "ALPR",
-        "surveillance:zone": "traffic"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 13535388201,
       "geometry": {
         "type": "Point",
@@ -7365,7 +7305,7 @@
       "properties": {
         "osm_id": 13645936601,
         "camera:type": "fixed",
-        "direction": "236",
+        "direction": "79",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
@@ -7479,6 +7419,8 @@
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
+        "operator": "Lowe's",
+        "operator:wikidata": "Q1373493",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -7864,8 +7806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.3173656,
-          29.474219
+          -98.317366,
+          29.474168
         ]
       },
       "properties": {
@@ -7886,8 +7828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.3597167,
-          29.4784108
+          -98.3597721,
+          29.4783308
         ]
       },
       "properties": {
@@ -7908,14 +7850,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.3159624,
-          29.4759883
+          -98.3160095,
+          29.4760314
         ]
       },
       "properties": {
         "osm_id": 13744123902,
         "camera:type": "fixed",
-        "direction": "177",
+        "direction": "205",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
@@ -8212,31 +8154,6 @@
     },
     {
       "type": "Feature",
-      "id": 13774984701,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.5133797,
-          29.3961742
-        ]
-      },
-      "properties": {
-        "osm_id": 13774984701,
-        "camera:type": "fixed",
-        "direction": "359;0;359",
-        "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
-        "operator": "Lowe's",
-        "operator:type": "private",
-        "operator:wikidata": "Q1373493",
-        "surveillance": "public",
-        "surveillance:type": "ALPR",
-        "surveillance:zone": "traffic"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 13781232901,
       "geometry": {
         "type": "Point",
@@ -8308,17 +8225,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.6468297,
-          29.6960887
+          -98.6468747,
+          29.6962518
         ]
       },
       "properties": {
         "osm_id": 13794965601,
         "camera:type": "fixed",
-        "direction": "311",
+        "direction": "201",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
+        "operator": "VILLAGE GREEN HOMEOWNERS ASSOCIATION",
+        "operator:type": "community",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -8773,8 +8692,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.3092495,
-          29.5267875
+          -98.3093344,
+          29.5266171
         ]
       },
       "properties": {
@@ -9588,28 +9507,6 @@
     },
     {
       "type": "Feature",
-      "id": 13983823801,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.3561752,
-          29.5698715
-        ]
-      },
-      "properties": {
-        "osm_id": 13983823801,
-        "camera:type": "fixed",
-        "direction": "57",
-        "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
-        "surveillance": "public",
-        "surveillance:type": "ALPR",
-        "surveillance:zone": "traffic"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 13987862603,
       "geometry": {
         "type": "Point",
@@ -9669,6 +9566,2140 @@
         "camera:mount": "pole",
         "camera:type": "fixed",
         "direction": "334",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13996489902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4919183,
+          29.4760267
+        ]
+      },
+      "properties": {
+        "osm_id": 13996489902,
+        "camera:type": "fixed",
+        "direction": "151",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14006927701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3220873,
+          29.515305
+        ]
+      },
+      "properties": {
+        "osm_id": 14006927701,
+        "camera:type": "fixed",
+        "direction": "208",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14006929401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6296688,
+          29.3371125
+        ]
+      },
+      "properties": {
+        "osm_id": 14006929401,
+        "camera:type": "fixed",
+        "direction": "253",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14006929402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.629521,
+          29.3374144
+        ]
+      },
+      "properties": {
+        "osm_id": 14006929402,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14015781701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6258714,
+          29.5290846
+        ]
+      },
+      "properties": {
+        "osm_id": 14015781701,
+        "camera:type": "fixed",
+        "direction": "32",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14016515134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.47613,
+          29.3041134
+        ]
+      },
+      "properties": {
+        "osm_id": 14016515134,
+        "camera:type": "fixed",
+        "direction": "120",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14019322601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3605878,
+          29.4490446
+        ]
+      },
+      "properties": {
+        "osm_id": 14019322601,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "333",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14019323601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3797784,
+          29.4397203
+        ]
+      },
+      "properties": {
+        "osm_id": 14019323601,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14025200601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7841639,
+          29.3922167
+        ]
+      },
+      "properties": {
+        "osm_id": 14025200601,
+        "camera:type": "fixed",
+        "direction": "82",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14027681902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4942711,
+          29.5177637
+        ]
+      },
+      "properties": {
+        "osm_id": 14027681902,
+        "camera:type": "fixed",
+        "direction": "114",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14028904701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4283041,
+          29.3494516
+        ]
+      },
+      "properties": {
+        "osm_id": 14028904701,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "181",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "operator": "Lowe's",
+        "operator:type": "private",
+        "operator:wikidata": "Q1373493",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14029146601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4748591,
+          29.3039065
+        ]
+      },
+      "properties": {
+        "osm_id": 14029146601,
+        "camera:type": "fixed",
+        "direction": "61",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14029149001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4761231,
+          29.3041082
+        ]
+      },
+      "properties": {
+        "osm_id": 14029149001,
+        "camera:type": "fixed",
+        "direction": "335",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14029253801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4738247,
+          29.3047376
+        ]
+      },
+      "properties": {
+        "osm_id": 14029253801,
+        "camera:type": "fixed",
+        "direction": "202",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14032163816,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4231241,
+          29.6691281
+        ]
+      },
+      "properties": {
+        "osm_id": 14032163816,
+        "camera:type": "fixed",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14038597101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6238426,
+          29.4994718
+        ]
+      },
+      "properties": {
+        "osm_id": 14038597101,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "24",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14038624302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6088475,
+          29.4970443
+        ]
+      },
+      "properties": {
+        "osm_id": 14038624302,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "37",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14038663902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4731884,
+          29.2942877
+        ]
+      },
+      "properties": {
+        "osm_id": 14038663902,
+        "camera:type": "fixed",
+        "direction": "210",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14041901301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2309096,
+          29.4992317
+        ]
+      },
+      "properties": {
+        "osm_id": 14041901301,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "298",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14041902401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2308539,
+          29.4992288
+        ]
+      },
+      "properties": {
+        "osm_id": 14041902401,
+        "camera:type": "fixed",
+        "direction": "298",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14041902901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2563105,
+          29.539537
+        ]
+      },
+      "properties": {
+        "osm_id": 14041902901,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "86",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14041929701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7148525,
+          29.4853468
+        ]
+      },
+      "properties": {
+        "osm_id": 14041929701,
+        "camera:type": "fixed",
+        "direction": "198",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14041945102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3504873,
+          29.5508439
+        ]
+      },
+      "properties": {
+        "osm_id": 14041945102,
+        "camera:type": "fixed",
+        "direction": "151",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047343002,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3374128,
+          29.4897932
+        ]
+      },
+      "properties": {
+        "osm_id": 14047343002,
+        "camera:type": "fixed",
+        "direction": "50",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047343701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3368474,
+          29.4893775
+        ]
+      },
+      "properties": {
+        "osm_id": 14047343701,
+        "camera:type": "fixed",
+        "direction": "233",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047343702,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3374128,
+          29.4897932
+        ]
+      },
+      "properties": {
+        "osm_id": 14047343702,
+        "camera:type": "fixed",
+        "direction": "359",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047387901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6478181,
+          29.6924122
+        ]
+      },
+      "properties": {
+        "osm_id": 14047387901,
+        "camera:type": "fixed",
+        "direction": "202",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047642101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7504988,
+          29.4411991
+        ]
+      },
+      "properties": {
+        "osm_id": 14047642101,
+        "camera:mount": "neighborhood",
+        "camera:type": "fixed",
+        "direction": "86;197",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047940801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7080792,
+          29.5993206
+        ]
+      },
+      "properties": {
+        "osm_id": 14047940801,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "254",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14047941001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7078771,
+          29.5991718
+        ]
+      },
+      "properties": {
+        "osm_id": 14047941001,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "74",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14049999801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4407848,
+          29.3535144
+        ]
+      },
+      "properties": {
+        "osm_id": 14049999801,
+        "camera:mount": "street_lamp",
+        "camera:type": "fixed",
+        "direction": "300",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "operator": "The Home Depot",
+        "operator:type": "private",
+        "operator:wikidata": "Q864407",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14051705602,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3666763,
+          29.5457862
+        ]
+      },
+      "properties": {
+        "osm_id": 14051705602,
+        "camera:type": "fixed",
+        "direction": "154",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14051705703,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3666942,
+          29.5457749
+        ]
+      },
+      "properties": {
+        "osm_id": 14051705703,
+        "camera:type": "fixed",
+        "direction": "216",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14052028101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3361399,
+          29.4944414
+        ]
+      },
+      "properties": {
+        "osm_id": 14052028101,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "296",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14052429201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6232914,
+          29.577672
+        ]
+      },
+      "properties": {
+        "osm_id": 14052429201,
+        "camera:type": "fixed",
+        "direction": "157",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14055203401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6673995,
+          29.5461054
+        ]
+      },
+      "properties": {
+        "osm_id": 14055203401,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "operator": "Lowe's",
+        "operator:type": "private",
+        "operator:wikidata": "Q1373493",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056863501,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5106455,
+          29.6624079
+        ]
+      },
+      "properties": {
+        "osm_id": 14056863501,
+        "camera:type": "fixed",
+        "direction": "326",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056866201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5105668,
+          29.6624139
+        ]
+      },
+      "properties": {
+        "osm_id": 14056866201,
+        "camera:type": "fixed",
+        "direction": "21",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056867701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5105498,
+          29.662345
+        ]
+      },
+      "properties": {
+        "osm_id": 14056867701,
+        "camera:type": "fixed",
+        "direction": "154",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056868201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5106285,
+          29.6623356
+        ]
+      },
+      "properties": {
+        "osm_id": 14056868201,
+        "camera:type": "fixed",
+        "direction": "206",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056868301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5069383,
+          29.6626369
+        ]
+      },
+      "properties": {
+        "osm_id": 14056868301,
+        "camera:type": "fixed",
+        "direction": "14",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056868501,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5070098,
+          29.6626245
+        ]
+      },
+      "properties": {
+        "osm_id": 14056868501,
+        "camera:type": "fixed",
+        "direction": "326",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056869201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.506932,
+          29.6625724
+        ]
+      },
+      "properties": {
+        "osm_id": 14056869201,
+        "camera:type": "fixed",
+        "direction": "139",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14056869701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5069973,
+          29.6625701
+        ]
+      },
+      "properties": {
+        "osm_id": 14056869701,
+        "camera:type": "fixed",
+        "direction": "216",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14058308001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5270205,
+          29.5462226
+        ]
+      },
+      "properties": {
+        "osm_id": 14058308001,
+        "camera:type": "fixed",
+        "direction": "140",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14058309201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5270868,
+          29.5461829
+        ]
+      },
+      "properties": {
+        "osm_id": 14058309201,
+        "camera:type": "fixed",
+        "direction": "356",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14059898501,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6937321,
+          29.4048007
+        ]
+      },
+      "properties": {
+        "osm_id": 14059898501,
+        "camera:type": "fixed",
+        "direction": "53",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14059899201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6936094,
+          29.4048865
+        ]
+      },
+      "properties": {
+        "osm_id": 14059899201,
+        "camera:type": "fixed",
+        "direction": "226",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14065715401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6712787,
+          29.4184997
+        ]
+      },
+      "properties": {
+        "osm_id": 14065715401,
+        "camera:type": "fixed",
+        "direction": "196",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14065718201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6713633,
+          29.4180693
+        ]
+      },
+      "properties": {
+        "osm_id": 14065718201,
+        "camera:type": "fixed",
+        "direction": "135",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14069155001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6613284,
+          29.7307897
+        ]
+      },
+      "properties": {
+        "osm_id": 14069155001,
+        "camera:type": "fixed",
+        "direction": "9;193",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14069555901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.336496,
+          29.4891701
+        ]
+      },
+      "properties": {
+        "osm_id": 14069555901,
+        "camera:type": "fixed",
+        "direction": "218",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14069992301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7744865,
+          29.5182084
+        ]
+      },
+      "properties": {
+        "osm_id": 14069992301,
+        "camera:type": "fixed",
+        "direction": "183",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14070614301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.691537,
+          29.7302003
+        ]
+      },
+      "properties": {
+        "osm_id": 14070614301,
+        "camera:type": "fixed",
+        "direction": "210",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14071653862,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4865703,
+          29.5211797
+        ]
+      },
+      "properties": {
+        "osm_id": 14071653862,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "30",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14071653863,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4845412,
+          29.5218348
+        ]
+      },
+      "properties": {
+        "osm_id": 14071653863,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "185",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14071788001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6718025,
+          29.2773878
+        ]
+      },
+      "properties": {
+        "osm_id": 14071788001,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "80",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14072003701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5884094,
+          29.5836639
+        ]
+      },
+      "properties": {
+        "osm_id": 14072003701,
+        "camera:type": "fixed",
+        "direction": "0",
+        "level": "1",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14072004301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5887288,
+          29.5821106
+        ]
+      },
+      "properties": {
+        "osm_id": 14072004301,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14073572201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6721677,
+          29.5571314
+        ]
+      },
+      "properties": {
+        "osm_id": 14073572201,
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "direction": "60",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14074122301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3191503,
+          29.4962952
+        ]
+      },
+      "properties": {
+        "osm_id": 14074122301,
+        "camera:type": "fixed",
+        "direction": "333",
+        "man_made": "surveillance",
+        "manufacturer": "Axon Enterprise",
+        "manufacturer:wikidata": "Q690604",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14075498901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4512862,
+          29.362089
+        ]
+      },
+      "properties": {
+        "osm_id": 14075498901,
+        "camera:type": "fixed",
+        "direction": "38;117",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14075595101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6278164,
+          29.6087298
+        ]
+      },
+      "properties": {
+        "osm_id": 14075595101,
+        "camera:type": "fixed",
+        "direction": "47",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079002401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6652792,
+          29.7318497
+        ]
+      },
+      "properties": {
+        "osm_id": 14079002401,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079023901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6279566,
+          29.7108784
+        ]
+      },
+      "properties": {
+        "osm_id": 14079023901,
+        "camera:mount": "street_lamp",
+        "camera:type": "fixed",
+        "direction": "322",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079415903,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.372776,
+          29.3665767
+        ]
+      },
+      "properties": {
+        "osm_id": 14079415903,
+        "camera:type": "fixed",
+        "direction": "245",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079667602,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.465319,
+          29.4006532
+        ]
+      },
+      "properties": {
+        "osm_id": 14079667602,
+        "camera:type": "fixed",
+        "direction": "142",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079670701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4653259,
+          29.3999961
+        ]
+      },
+      "properties": {
+        "osm_id": 14079670701,
+        "camera:type": "fixed",
+        "direction": "73",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079671701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4696522,
+          29.4005648
+        ]
+      },
+      "properties": {
+        "osm_id": 14079671701,
+        "camera:type": "fixed",
+        "direction": "89",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079672702,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4669127,
+          29.4120992
+        ]
+      },
+      "properties": {
+        "osm_id": 14079672702,
+        "camera:type": "fixed",
+        "direction": "193",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14079679901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7685115,
+          29.4241851
+        ]
+      },
+      "properties": {
+        "osm_id": 14079679901,
+        "camera:type": "fixed",
+        "direction": "152",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14080927086,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5362158,
+          29.6076619
+        ]
+      },
+      "properties": {
+        "osm_id": 14080927086,
+        "camera:type": "fixed",
+        "direction": "190",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14080968972,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5364002,
+          29.6072593
+        ]
+      },
+      "properties": {
+        "osm_id": 14080968972,
+        "camera:type": "fixed",
+        "direction": "80",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14080981703,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5501371,
+          29.3537428
+        ]
+      },
+      "properties": {
+        "osm_id": 14080981703,
+        "camera:type": "fixed",
+        "direction": "99",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14085536004,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6516648,
+          29.4730687
+        ]
+      },
+      "properties": {
+        "osm_id": 14085536004,
+        "camera:type": "fixed",
+        "direction": "190",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "street"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14085538901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5378533,
+          29.5614162
+        ]
+      },
+      "properties": {
+        "osm_id": 14085538901,
+        "camera:type": "fixed",
+        "direction": "107;179;0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14085546120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6516045,
+          29.4729753
+        ]
+      },
+      "properties": {
+        "osm_id": 14085546120,
+        "camera:direction": "15",
+        "camera:type": "fixed",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14085827402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3746479,
+          29.372
+        ]
+      },
+      "properties": {
+        "osm_id": 14085827402,
+        "camera:type": "fixed",
+        "direction": "243",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14088781001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6475661,
+          29.6969946
+        ]
+      },
+      "properties": {
+        "osm_id": 14088781001,
+        "camera:type": "fixed",
+        "direction": "203",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "operator": "VILLAGE GREEN HOMEOWNERS ASSOCIATION",
+        "operator:type": "community",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14090528902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6086914,
+          29.6042755
+        ]
+      },
+      "properties": {
+        "osm_id": 14090528902,
+        "camera:type": "fixed",
+        "direction": "265;342",
+        "man_made": "surveillance",
+        "manufacturer": "Rekor",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14090532301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6085354,
+          29.60446
+        ]
+      },
+      "properties": {
+        "osm_id": 14090532301,
+        "camera:type": "fixed",
+        "direction": "269;349",
+        "man_made": "surveillance",
+        "manufacturer": "Rekor",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14090532601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6085911,
+          29.6043971
+        ]
+      },
+      "properties": {
+        "osm_id": 14090532601,
+        "camera:type": "fixed",
+        "direction": "266;358",
+        "man_made": "surveillance",
+        "manufacturer": "Rekor",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14090532602,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6086438,
+          29.6043374
+        ]
+      },
+      "properties": {
+        "osm_id": 14090532602,
+        "camera:type": "fixed",
+        "direction": "266;347",
+        "man_made": "surveillance",
+        "manufacturer": "Rekor",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14090609776,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5157229,
+          29.5092024
+        ]
+      },
+      "properties": {
+        "osm_id": 14090609776,
+        "camera:type": "fixed",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14091512301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6371387,
+          29.4431781
+        ]
+      },
+      "properties": {
+        "osm_id": 14091512301,
+        "camera:type": "fixed",
+        "direction": "27",
+        "man_made": "surveillance",
+        "manufacturer": "Motorola Solutions",
+        "manufacturer:wikidata": "Q634815",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14094593459,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.523796,
+          29.5318519
+        ]
+      },
+      "properties": {
+        "osm_id": 14094593459,
+        "camera:type": "fixed",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14095531701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.619284,
+          29.3304081
+        ]
+      },
+      "properties": {
+        "osm_id": 14095531701,
+        "camera:type": "fixed",
+        "direction": "190",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14095531702,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6191223,
+          29.3304971
+        ]
+      },
+      "properties": {
+        "osm_id": 14095531702,
+        "camera:type": "fixed",
+        "direction": "90",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14096037201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3070382,
+          29.5806875
+        ]
+      },
+      "properties": {
+        "osm_id": 14096037201,
+        "camera:type": "fixed",
+        "direction": "162",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14097583001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4830394,
+          29.4246235
+        ]
+      },
+      "properties": {
+        "osm_id": 14097583001,
+        "camera:type": "fixed",
+        "direction": "155",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14097660701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4016713,
+          29.5916074
+        ]
+      },
+      "properties": {
+        "osm_id": 14097660701,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14097661401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4030511,
+          29.5941999
+        ]
+      },
+      "properties": {
+        "osm_id": 14097661401,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14097662301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4037265,
+          29.594911
+        ]
+      },
+      "properties": {
+        "osm_id": 14097662301,
+        "camera:type": "fixed",
+        "direction": "0",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14097884601,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4358515,
+          29.4750043
+        ]
+      },
+      "properties": {
+        "osm_id": 14097884601,
+        "camera:type": "fixed",
+        "direction": "250",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14097928301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4862562,
+          29.4225548
+        ]
+      },
+      "properties": {
+        "osm_id": 14097928301,
+        "camera:type": "fixed",
+        "direction": "75",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14099481201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3934719,
+          29.511992
+        ]
+      },
+      "properties": {
+        "osm_id": 14099481201,
+        "camera:type": "fixed",
+        "direction": "257",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
