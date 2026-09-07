@@ -572,8 +572,8 @@
         "camera:type": "fixed",
         "direction": "180",
         "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
+        "manufacturer": "Axon Enterprise",
+        "manufacturer:wikidata": "Q690604",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -4899,18 +4899,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.4600327,
-          29.4696284
+          -98.4601436,
+          29.4695928
         ]
       },
       "properties": {
         "osm_id": 13390361101,
         "camera:mount": "pole",
         "camera:type": "fixed",
-        "direction": "76",
+        "direction": "69",
         "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
+        "manufacturer": "Motorola Solutions",
+        "manufacturer:wikidata": "Q634815",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -7021,10 +7021,10 @@
         "osm_id": 13588044003,
         "camera:mount": "pole",
         "camera:type": "fixed",
-        "direction": "329;0;309",
+        "direction": "309",
         "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
+        "manufacturer": "Motorola Solutions",
+        "manufacturer:wikidata": "Q634815",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -8714,40 +8714,18 @@
     },
     {
       "type": "Feature",
-      "id": 13923887501,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.4869946,
-          29.4681716
-        ]
-      },
-      "properties": {
-        "osm_id": 13923887501,
-        "camera:type": "fixed",
-        "direction": "0",
-        "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
-        "surveillance": "public",
-        "surveillance:type": "ALPR",
-        "surveillance:zone": "traffic"
-      }
-    },
-    {
-      "type": "Feature",
       "id": 13923889601,
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.4871169,
-          29.4680383
+          -98.4869991,
+          29.4682505
         ]
       },
       "properties": {
         "osm_id": 13923889601,
         "camera:type": "fixed",
-        "direction": "0",
+        "direction": "208",
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
@@ -9384,8 +9362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.4919183,
-          29.4760267
+          -98.4919245,
+          29.4756879
         ]
       },
       "properties": {
@@ -9393,8 +9371,8 @@
         "camera:type": "fixed",
         "direction": "151",
         "man_made": "surveillance",
-        "manufacturer": "Flock Safety",
-        "manufacturer:wikidata": "Q108485435",
+        "manufacturer": "Axon Enterprise",
+        "manufacturer:wikidata": "Q690604",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
@@ -12086,6 +12064,94 @@
         "man_made": "surveillance",
         "manufacturer": "Flock Safety",
         "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14138331904,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.6234606,
+          29.5115444
+        ]
+      },
+      "properties": {
+        "osm_id": 14138331904,
+        "camera:type": "fixed",
+        "direction": "95",
+        "man_made": "surveillance",
+        "manufacturer": "Flock Safety",
+        "manufacturer:wikidata": "Q108485435",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14144228701,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7503415,
+          29.4369641
+        ]
+      },
+      "properties": {
+        "osm_id": 14144228701,
+        "camera:type": "fixed",
+        "direction": "222;351",
+        "man_made": "surveillance",
+        "manufacturer": "Genetec",
+        "manufacturer:wikidata": "Q30295174",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14152598201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4792303,
+          29.4729536
+        ]
+      },
+      "properties": {
+        "osm_id": 14152598201,
+        "camera:type": "fixed",
+        "direction": "140",
+        "man_made": "surveillance",
+        "manufacturer": "Axon Enterprise",
+        "manufacturer:wikidata": "Q690604",
+        "surveillance": "public",
+        "surveillance:type": "ALPR",
+        "surveillance:zone": "traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14152617901,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4870013,
+          29.468505
+        ]
+      },
+      "properties": {
+        "osm_id": 14152617901,
+        "camera:type": "fixed",
+        "direction": "347",
+        "man_made": "surveillance",
+        "manufacturer": "Axon Enterprise",
+        "manufacturer:wikidata": "Q690604",
         "surveillance": "public",
         "surveillance:type": "ALPR",
         "surveillance:zone": "traffic"
