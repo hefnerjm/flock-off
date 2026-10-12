@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-05T18:31:40.322Z",
+  "lastUpdated": "2026-10-12T19:16:07.788Z",
   "counts": {
-    "bexar": 559,
-    "texas": 17316,
-    "national": 144489
+    "bexar": 476,
+    "texas": 17382,
+    "national": 145180
   },
   "source": "OpenStreetMap contributors, via Overpass API",
   "license": "ODbL"
